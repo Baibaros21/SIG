@@ -5,10 +5,10 @@ response = sys.argv[1]
 if(response=='hi'):
     answer = 'hello'
 elif(response=='i am sad'):
-    answer = 'so?'
+    answer = 'it is fine'
 elif(response=='happy'):
-    answer = 'no'
+    answer = 'good'
 
-else: answer = 'eat shit'
+else: answer = 'sorry didnt get that'
 
 print (json.dumps(answer))
